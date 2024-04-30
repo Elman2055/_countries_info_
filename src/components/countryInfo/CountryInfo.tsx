@@ -1,4 +1,3 @@
-import React from "react";
 import { TInfo } from "../interfaces/ComponentsData";
 import "./CountryInfo.scss";
 
