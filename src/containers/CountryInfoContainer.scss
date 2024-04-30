@@ -90,6 +90,7 @@
 
     @include media-sm {
       width: 34vw;
+      padding: 3px;
     }
 
     & .search {
@@ -151,6 +152,7 @@
 
     @include media-sm {
       width: 52vw;
+      padding: 15px;
     }
   }
 }
