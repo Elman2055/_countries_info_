@@ -1,10 +1,11 @@
+import React from "react";
 import { TInfo } from "../interfaces/ComponentsData";
 import "./CountryInfo.scss";
 
 const CountryInfo = (props: TInfo) => {
   return (
-    <div className="countryInfo">
-      <div className="infoFlex">
+    <>
+      <div className="countryInfo">
         <div>
           <h1 className="country">{props.country}</h1>
           <h3>Capital: {props.capital}</h3>
@@ -22,7 +23,7 @@ const CountryInfo = (props: TInfo) => {
           <li>{props.borders}</li>
         </h4>
       </div>
-    </div>
+    </>
   );
 };
 
